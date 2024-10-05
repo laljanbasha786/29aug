@@ -1,0 +1,119 @@
+
+*{
+    margin: 0px;
+}
+.body{
+    background-image:url(https://img.freepik.com/premium-photo/full-shot-travel-concept-with-landmarks_1174912-5236.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    margin-left: 20%;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    line-height: 90px;
+}
+h5{
+    line-height: 90px;
+    color: blue;
+    font-size: 40px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all;
+    transition-timing-function: ease-in;
+    /* transition-duration: 1s; */
+    transition-delay: 0.5s;
+}
+a:hover{
+    padding: 2px;
+    background-color: white;
+}
+.div1{
+    position: relative;
+    top: 100px;
+    margin-left: 20%;
+    width: 800px;
+    height: 430px;
+}
+h1{
+    text-transform: capitalize;
+    width: 400px;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+p{
+    color: white;
+    width: 400px;
+}
+#btn{
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+#btn:hover{
+    padding: 20px;
+}
+.div2{
+    position: relative;
+    top: 10px;
+    width: 800px;
+    margin-left: 20%;
+}
+.main{
+    background-color: white;
+}
+h2{
+    margin-top: 30px;
+    width: 400px;
+    color: black;
+}
+.div3{
+    margin-top: 30px;
+    width: 800px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.div4{
+    padding: 40px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    transition-duration: 2s;
+}
+img{
+    margin-top: 20px;
+}
+.div4:hover{
+    transform: scale(1.1,1.1);
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+footer{
+    background-color:rgb(3, 22, 3);
+}
+.foot{
+    padding: 40px;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+}
